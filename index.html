@@ -1,0 +1,72 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bitcoin Empire - Offline Address Generator</title>
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <!--[if IE]><p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p><![endif]-->
+  <div class="container">
+    <div class="header"></div>
+    <div class="jumbotron">
+      <h1>Bitcoin Empire - Offline Address Generator</h1>
+      <p class="lead">The tabletop card game with a bitcoin theme.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="well">
+          <h2>Bitcoin Address Generator</h2>
+          <div>
+            <label for="input">Type the 42 letters and numbers from the shuffled deck of cards</label>
+          </div>
+          <div>
+            <input type="text" name="input" class="form-control input-lg" id="input">
+          </div>
+          <p class="character-count" id="characterCount"></p>
+          <div>
+            <label for="privateKey">Private key (keep this secret)</label>
+          </div>
+          <div>
+            <input type="text" name="privateKey" class="form-control" id="privateKey" readonly="readonly">
+          </div>
+          <div>
+            <label for="address">Address</label>
+          </div>
+          <div>
+            <input type="text" name="address" class="form-control" id="address" readonly="readonly">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="well">
+          <h2>Reverse the process</h2>
+          <div>
+            <label for="inputReverse">Private key (keep this secret)</label>
+          </div>
+          <div>
+            <input type="text" name="inputReverse" class="form-control input-lg" id="inputReverse">
+          </div>
+          <p class="character-count" id="characterCountReverse"></p>
+          <div>
+            <label for="reverseOutput">The 42 letters and numbers from the shuffled deck of cards</label>
+          </div>
+          <div>
+            <input type="text" name="reverseOutput" class="form-control" id="reverseOutput" readonly="readonly">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/cryptocoin.js"></script>
+  <script src="scripts/bitcoinjs.min.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
