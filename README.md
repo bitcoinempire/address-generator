@@ -1,5 +1,7 @@
 # Bitcoin Empire Address Generator
 
+[![JavaScript Style Guide](https://cdn.rawgit.com/standard/standard/master/badge.svg)](https://github.com/standard/standard)
+
 Bitcoin Empire: To The Moon is a tabletop card game seeking crowd funding on Kickstarter. As well as being an incredibly enjoyable game, the cards have letters and number printed on them enabling the deck to be used as a random number generator with excellent entropy. The Base58 encoded random number can be transformed into a bitcoin address on the official Bitcoin Empire website, however it is a lot more secure to perform this process on an offline machine. Which is why this repository exists.
 
 ![Bitcoin Empire: To The Moon](http://bitcoin-empire.info/images/white-bg-box-everything-thumb.jpg)
